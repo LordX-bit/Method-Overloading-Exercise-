@@ -1,10 +1,13 @@
-﻿namespace MethodOverloading
+﻿using MethodOverloading;
+
+internal class Program
 {
-    public class Program
+    private static void Main(string[] args)
     {
-        static void Main(string[] args)
-        {
-            Console.WriteLine("Hello, World!");
-        }
+
+
+        var anser = Methods.Add(0,30,true) ;
+        Console.WriteLine(anser);
+
     }
 }
